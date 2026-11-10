@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Светофор</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <h1>Светофор</h1>
+
+    <div class="traffic-light" id="trafficLight">
+      <div class="lamp red" data-color="red"></div>
+      <div class="lamp yellow" data-color="yellow"></div>
+      <div class="lamp green" data-color="green"></div>
+    </div>
+
+    <div class="timer" id="timer">—</div>
+
+    <div class="controls">
+      <button id="startBtn">Старт</button>
+      <button id="stopBtn">Стоп</button>
+      <button id="nightBtn">Ночной режим</button>
+    </div>
+
+    <p class="hint">Можно нажимать на лампы, чтобы включить цвет вручную.</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
